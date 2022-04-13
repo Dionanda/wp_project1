@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cascadia Code";
+  }
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f2ffe9;
+    color: #557c55;
+}
+  
+  /* .wrapper {
+    border: 1px solid #000;
+  } */
+  
+.hero-title {
+    margin-left: 10px;
+    color: #557c55;
+    font-size: 50px;
+}
+  
+.hero-description {
+    margin: 15px 0 0 10px;
+    font-size: 20px;
+    color: #557c55;
+}
+  
+.form {
+/* Shorthand penulisan margin */
+    margin: 20px 10px;
+    color: #557c55;
+}
+  
+#inpcf.after {
+    border-color: black;
+}
+  
+#inpfc,
+#inpcf {
+    /* Shorthand penulisan margin */
+    margin: 0 5px 20px 0;
+    display: inline-flex;
+    margin-top: 1px;
+    height: 1rem;
+    width: 1rem;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+  
+#inpns {
+    /* Styling ulang */
+    margin-bottom: 20px;
+    font-size: 12pt;
+    width: 400px;
+    max-width: 400px;
+    padding: 10px 50px 10px 10px;
+    color: #000;
+    background-color: #f2ffe9;
+    border-color: #557c55;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+  
+/* Ganti warna button radio */
+#inpcf,
+#inpfc {
+    accent-color: #000;
+}
+  
+#inpns:focus,
+#inpcf:focus,
+#inpfc:focus {
+    outline: none;
+}
+  
+#inpsb {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 12pt;
+    background-color: #9fc088;
+    color: black;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    /* Biar kursornya seperti penunjuk */
+    cursor: pointer;
+}
+  
+#inpsb:hover {
+    background-color: #105652;
+    color: white;
+}
+  
+/* Styling hasil konversi */
+.hasil-konversi {
+    padding: 20px;
+}
